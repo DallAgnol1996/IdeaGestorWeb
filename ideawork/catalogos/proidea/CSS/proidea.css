@@ -1,0 +1,9 @@
+﻿:root {
+    --cor-principal: #333333;
+    --cor-secundaria: #12ACC7;
+    --cor-branca: #fff;
+    --cor-preta: #000;
+    --fontbase: url('../Catalogos/movelup/font/IntervalSansPro-Regular.otf');
+    --fontbasefamily: intervalsansprovar;
+    --empresabase: movelup;
+}

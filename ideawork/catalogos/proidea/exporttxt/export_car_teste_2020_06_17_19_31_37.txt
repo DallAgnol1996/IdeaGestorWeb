@@ -1,0 +1,3 @@
+cod	des	cat	img	ord	linkdoc	coditem	campo1	info33
+o01	opc 010			0			fff	sss	
+o02	opc 022			0			

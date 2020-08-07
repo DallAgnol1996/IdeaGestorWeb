@@ -1,0 +1,26 @@
+[
+  {
+    "outputFileName": "js/enginebase.js",
+    "inputFiles": [
+      "js/ProideaBase.js",
+      "js/router.js",
+      "js/main.js",
+      "js/upload.js"
+    ]
+  },
+  {
+    "outputFileName": "css/style.css",
+    "inputFiles": [
+      "css/background.css",
+      "css/custom_loginpage.css",
+      "css/glyphicon.css",
+      "css/proideaBase.css"
+    ]
+  },
+  {
+    "outputFileName": "css/style.min.min.css",
+    "inputFiles": [
+      "css/style.min.css"
+    ]
+  }
+]

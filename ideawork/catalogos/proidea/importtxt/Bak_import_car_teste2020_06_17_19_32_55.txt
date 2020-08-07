@@ -1,0 +1,1 @@
+[{"codcar":"teste","cod":"o01","des":"opc 010","cat":"","img":"","coditem":"","ord":0,"linkdoc":"","campos":"fff,sss,","nivel":0,"cAdd":["fff","sss",""],"ativo":1},{"codcar":"teste","cod":"o02","des":"opc 022","cat":"","img":"","coditem":"","ord":0,"linkdoc":"","campos":"","nivel":0,"cAdd":[],"ativo":1}]

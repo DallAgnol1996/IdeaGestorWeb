@@ -1,0 +1,229 @@
+﻿.content {
+    margin-left: 300px;
+    font-size: 12px;
+}
+
+.card-content {
+    margin: 15px 15px 15px 15px;
+}
+
+.card {
+    box-shadow: 5px 5px 5px 3px #888888;
+}
+
+.card-header {
+    background-color: var(--cor-principal-light);
+    color: var(--cor-branca);
+    box-shadow: 1px 1px 1px 1px #888888;
+}
+
+.groupcheck {
+    background-color: rgba(0,0,0,.03);
+    color: var(--cor-preta);
+    padding: 0px;
+    transition: padding 0.3s linear 0.1s;
+    transition: border 0.3s linear 0.1s;
+}
+
+    .groupcheck:hover {
+        padding-left: 5px;
+        border-left: 5px solid var(--cor-secundaria);
+    }
+
+.groupedit {
+    background-color: rgba(0,0,0,.03);
+    color: var(--cor-secundaria);
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+    .groupedit label {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .groupedit input {
+        border-color: transparent;
+        outline-color: var(--cor-secundaria);
+        padding-right: 10px;
+        height: 25px;
+    }
+    .groupedit button {
+        padding: 0px;
+        padding-left:10px;
+    }
+
+.inputline {
+    border-color: transparent;
+    outline-color: var(--cor-secundaria);
+    margin-left:10px;
+}
+
+.grupo-btn {
+    float: right;
+}
+
+.grupo-btn-import {
+    float: right;
+}
+
+.btn-export {
+    float: left;
+}
+
+.upload-form {
+    margin-top: 30px;
+    margin-left: 15px;
+}
+
+.btn-upload {
+    width: 400px;
+}
+
+
+.btnreturn {
+    float: left;
+}
+
+.divpopupclassvisible {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgba(0,0,0,0.8);
+    z-index: 99999;
+    opacity: 0;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+}
+
+    .divpopupclassvisible:target {
+        opacity: 1;
+        pointer-events: auto;
+    }
+
+    .divpopupclassvisible > div {
+        width: 400px;
+        position: relative;
+        margin: 10% auto;
+        padding: 15px 20px;
+        background: #fff;
+    }
+
+.btn-default {
+    background-color: var(--cor-principal-light);
+    color: var(--cor-branca);
+}
+
+    .btn-default:hover {
+        background-color: var(--cor-principal-hover);
+        box-shadow: 1px 1px 1px 1px #888888;
+    }
+
+    .btn-default a {
+        color: var(--cor-branca);
+    }
+
+        .btn-default a:hover {
+            background: none;
+            text-decoration: none;
+        }
+
+.btn-defaults {
+    background-color: var(--cor-secundaria);
+    color: var(--cor-branca);
+}
+
+    .btn-defaults:hover {
+        background-color: var(--cor-secundaria-hover);
+        box-shadow: 1px 1px 1px 1px #888888;
+    }
+
+    .btn-defaults a {
+        color: var(--cor-branca);
+    }
+
+        .btn-defaults a:hover {
+            background: none;
+            text-decoration: none;
+        }
+
+.btn-defaultd {
+    background-color: var(--cor-danger);
+    color: var(--cor-branca);
+}
+
+    .btn-defaultd:hover {
+        background-color: var(--cor-danger-hover);
+        box-shadow: 1px 1px 1px 1px #888888;
+    }
+
+    .btn-defaultd a {
+        color: var(--cor-branca);
+    }
+
+        .btn-defaultd a:hover {
+            background: none;
+            text-decoration: none;
+        }
+.btnrow {
+    width: 25px;
+    height: 25px;
+    text-align:center;
+}
+.row-upload-img {
+    width: 100px;
+}
+
+
+@media (max-width: 767px) {
+    .content {
+        margin-left: 0px;
+    }
+
+    .btn-upload {
+        width: 150px;
+    }
+}
+
+
+
+/*Modal*/
+
+.modalfadeIn {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    padding: 0;
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modalWindow {
+    position: relative;
+    width: 50%;
+    height: calc(100% - 38px);
+    margin: 0 auto;
+    top: 19px;
+    border-radius: 3px;
+    background-color: var(--cor-branca);
+}
+
+.listinput table tr,
+.listinput table td {
+    padding: 0px;
+}
+
+.actlist {
+    padding-top: 0px;
+    padding-top: 0px;
+}
+
+

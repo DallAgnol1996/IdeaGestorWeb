@@ -1,0 +1,14 @@
+﻿:root {
+    --cor-principal: #23282e;
+    --cor-principal-light: #2e353d;
+    --cor-principal-hover: #4f5b69;
+    --cor-secundaria: #12ACC7;
+    --cor-secundaria-hover: #12acc7bd;
+    --cor-danger: #dc3545;
+    --cor-danger-hover: #dc3545bd;
+    --cor-branca: #fff;
+    --cor-preta: #000;
+    --fontbase: url('../Catalogos/proidea/font/IntervalSansPro-Regular.otf');
+    --fontbasefamily: intervalsansprovar;
+    --empresabase: proidea;
+}

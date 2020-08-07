@@ -1,0 +1,43 @@
+﻿
+    module.exports = {
+        props: {
+            label: {
+                default: "Label",
+                type: String
+            },
+            placeholder: {
+                default: "placeholder",
+                type: String
+            },
+            labelsize: {
+                default: "3",
+                type: String
+            },
+            inputsize: {
+                default: "9",
+                type: String
+            },
+            colsize: {
+                default: "sm",
+                type: String
+            },
+            rownumber: {
+                default: "4",
+                type: String
+            },
+            colnumber: {
+                default: "50",
+                type: String
+            },
+            disabled: {
+                type: String,
+                default: "0"
+            },
+            value: ""
+        },
+        data() {
+            return {
+
+            };
+        }
+    }

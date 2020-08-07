@@ -1,0 +1,299 @@
+﻿body {
+    background: url('../img/bg.jpg') fixed;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+}
+
+.EsqueciASenha {
+    border: none;
+    background: none;
+    font-weight: 100;
+}
+
+    .EsqueciASenha:hover {
+        font-weight: bolder;
+        font-size: 16px;
+        color: #12ACC7;
+        text-decoration: underline;
+    }
+
+.wrap {
+    width: 100%;
+    height: 100%;
+    min-height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+#label_login {
+    text-align: center;
+    justify-content: center;
+    padding-top: 20px;
+
+}
+
+form.login a:hover {
+    color: #9a9080;
+}
+
+.wrap form#ctl00.login a {
+    position: absolute;
+    margin-top: 70px;
+    margin-left: -98px;
+}
+
+p.form-title {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 5%;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+form {
+    width: 250px;
+    margin: 0 auto;
+}
+
+    form.login input[type="text"], form.login input[type="password"] {
+        width: 100%;
+        margin: 0;
+        padding: 5px 10px;
+        background-color: rgb(255, 255, 255) !important;
+        border: 0;
+        /*border-bottom: 1px solid black;*/
+        outline: 0;
+        font-style: italic;
+        font-size: 25px;
+        font-weight: 400;
+        letter-spacing: 1px;
+        margin-bottom: 5px;
+        color: #4B4B4D;
+        outline: 0;
+    }
+
+.wrap form#ctl00.login {
+    margin-top: 17%;
+}
+
+input#Username {
+    background-color: rgb(255, 255, 255) !important;
+}
+
+input#Password {
+    background-color: rgb(255, 255, 255) !important;
+}
+
+form.login input[type="submit"] {
+    width: 100%;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-top: 16px;
+    outline: 0;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+    form.login input[type="submit"]:hover {
+        transition: background-color 0.5s ease;
+    }
+
+form.login .remember-forgot {
+    float: left;
+    width: 100%;
+    margin: 10px 0 0 0;
+}
+
+form.login .forgot-pass-content {
+    min-height: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+form.login label, form.login a {
+    font-size: 14px;
+    font-weight: 400;
+    color: #333333;
+}
+
+form.login a {
+    transition: color 0.5s ease;
+}
+
+.pr-wrap {
+    width: 100%;
+    height: 100%;
+    min-height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    display: none;
+}
+
+.show-pass-reset {
+    display: block !important;
+}
+
+.pass-reset {
+    margin: 0 auto;
+    width: 250px;
+    position: relative;
+    margin-top: 22%;
+    z-index: 999;
+    background: #FFFFFF;
+    padding: 20px 15px;
+}
+
+    .pass-reset label {
+        font-size: 12px;
+        font-weight: 400;
+        margin-bottom: 15px;
+    }
+
+    .pass-reset input[type="email"] {
+        width: 100%;
+        margin: 5px 0 0 0;
+        padding: 5px 10px;
+        background: 0;
+        border: 0;
+        border-bottom: 1px solid #000000;
+        outline: 0;
+        font-style: italic;
+        font-size: 12px;
+        font-weight: 400;
+        letter-spacing: 1px;
+        margin-bottom: 5px;
+        color: #000000;
+        outline: 0;
+    }
+
+    .pass-reset input[type="submit"] {
+        width: 100%;
+        border: 0;
+        font-size: 14px;
+        text-transform: uppercase;
+        font-weight: 500;
+        margin-top: 10px;
+        outline: 0;
+        cursor: pointer;
+        letter-spacing: 1px;
+    }
+
+        .pass-reset input[type="submit"]:hover {
+            transition: background-color 0.5s ease;
+        }
+
+.posted-by {
+    position: absolute;
+    bottom: 26px;
+    margin: 0 auto;
+    color: #FFF;
+    background-color: rgba(0, 0, 0, 0.66);
+    padding: 10px;
+    left: 50%;
+    width: 250px;
+    text-align: center;
+    margin-left: -125px;
+}
+
+.logoAt {
+    display: flex;
+    height: 60px;
+    padding-top: 0px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+input.btn.btn-proidea.btn-sm {
+    width: 40%;
+    color: #333333;
+    border: 1px solid #333333;
+    background: #12ACC7;
+    margin-left: 32%;
+}
+
+    input.btn.btn-proidea.btn-sm:hover {
+        transition-duration: 2s;
+        color: #fff;
+        border: 2px solid #fff;
+        background: rgba(51,51,51,0.8);
+        font-weight: bold;
+    }
+
+
+utextorc {
+    margin-bottom: 20px;
+}
+
+.danger {
+    color: red;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.row.form-group.col-sm-12 .table-responsive #table.table.table-hover.table-striped tbody tr td p button.btn.btn-default span.glyphicon.glyphicon-info-sign {
+    margin-left: 0px;
+    margin-top: -10px;
+}
+
+.rodape.row {
+    position: fixed;
+    left: 0;
+    bottom: 15px;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+
+.traco.col-sm-5 {
+    border: 1px solid #949494;
+    background: #949494;
+    max-height: 0px;
+    margin-top: 27px;
+    max-width: 100%;
+}
+
+.logorodape.col-sm-2 {
+    max-width: 100%;
+}
+
+.logorodape a img {
+    max-width: 100%;
+}
+
+.logoAt img {
+    height: 100%;
+}
+
+.linha {
+    margin-bottom: 18px;
+    border: 2px solid #95937f;
+    opacity: 0.3;
+}
+
+@media (max-width: 992px) {
+    .rodape.row {
+        position: relative;
+        width: 100%;
+        opacity: 0.5;
+        margin-top: 77%;
+    }
+}
+
+@media (max-width:767px) {
+    .rodape.row {
+        position: relative;
+        width: 100%;
+        opacity: 0.5;
+        margin-top: 100%;
+    }
+}
